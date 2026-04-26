@@ -48,3 +48,63 @@ Run this command on your server:
 
 ```bash
 bash <(curl -sSL https://raw.githubusercontent.com/Hajiyor/ssh-bot-Robexia/main/install.sh)
+```
+
+### Installer will automatically:
+
+* Install all dependencies
+* Ask for your bot token
+* Ask for admin numeric ID
+* Configure the bot
+* Start the bot automatically
+
+---
+
+## 🤖 Bot Commands
+
+| Command     | Description                             |
+| ----------- | --------------------------------------- |
+| `/start`    | Return to main panel                    |
+| `/fast_ssh` | Quick connection (without saving)       |
+| `/my_hosts` | Saved servers (up to 5 hosts)           |
+| `/close`    | Close current session                   |
+| `/wait`     | Background current session (15 minutes) |
+
+---
+
+## 💻 Inside Terminal
+
+* Any text you send → executes as SSH command
+* Buttons provide useful shortcuts
+* When nano / vim is open, buttons change automatically
+
+---
+
+## 📂 SFTP Mode
+
+* Select **SFTP** during quick connection
+* Send files inside session → uploaded automatically
+* Maximum upload size: **20MB**
+
+---
+
+## ⏰ Session Timeout
+
+Inactive sessions are automatically closed after **5 minutes**.
+
+---
+
+## 💖 Support / Donate
+
+If this project helped you, you can support development with a donation.
+
+* **TON:** `UQAhWF7xgZuODgzjBZKahSpi_nDisNgjQp-G14fxfCILRaZN`
+* **TRON (TRC20):** `TPWe5ZpnWTzuNZ9EKCCP1MiJeeWzjZsRAM`
+
+---
+
+## 📢 Official Telegram Channel
+
+For updates, news, and future releases:
+https://t.me/Robexia
+
