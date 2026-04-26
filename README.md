@@ -13,6 +13,7 @@ Perfect for situations where internet access is limited, but Telegram is still a
   <a href="#quick-start">Quick Install</a> ·
   <a href="#bot-commands">Bot Commands</a>
 </p>
+
 ---
 
 ## ✨ Features
