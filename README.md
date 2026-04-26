@@ -3,6 +3,16 @@
 A powerful Telegram SSH/SFTP Bot that lets users connect to their servers directly through Telegram.
 Perfect for situations where internet access is limited, but Telegram is still available.
 
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.fa.md">فارسی</a>
+</p>
+
+<p align="center">
+  <a href="#features">Features</a> ·
+  <a href="#quick-start">Quick Install</a> ·
+  <a href="#bot-commands">Bot Commands</a>
+</p>
 ---
 
 ## ✨ Features
