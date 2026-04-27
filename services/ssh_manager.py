@@ -42,7 +42,7 @@ class UserSession:
         self.last_activity = time.time()
 
     def update_sample(self, text: str):
-        self._last_sample = (self._last_sample + text)[-500:]
+        self._last_sample = (self._last_sample + text)[-5000:]
 
 
 class SSHManager:
