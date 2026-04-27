@@ -65,6 +65,7 @@ bash <(curl -sSL https://raw.githubusercontent.com/Hajiyor/ssh-bot-Robexia/main/
 | Command     | Description                             |
 | ----------- | --------------------------------------- |
 | `/start`    | Return to main panel                    |
+| `/admin`    | Admin panel                             |
 | `/fast_ssh` | Quick connection (without saving)       |
 | `/my_hosts` | Saved servers (up to 5 hosts)           |
 | `/close`    | Close current session                   |
