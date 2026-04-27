@@ -27,7 +27,7 @@ MAX_LINES = 40
 MAX_LINE_LEN = 300
 MAX_MSG_CHARS = 3800
 
-_ANSI_RE = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])')
+_ANSI_RE = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~]|[\(\)][A-Za-z0-9])')
 _CTRL_RE = re.compile(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]')
 
 
