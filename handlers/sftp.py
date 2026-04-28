@@ -157,7 +157,9 @@ async def handle_sftp_message(update: Update, context: ContextTypes.DEFAULT_TYPE
     if text == "📁 تغییر مسیر":
         context.user_data["sftp_state"] = "await_cd"
         await update.message.reply_html(
-            f"📁 مسیر فعلی: <code>{cur}</code>\n\nمسیر جدید را بفرست:",
+            f"📁 مسیر فعلی: <code>{cur}</code>\n\n"
+            "مسیر جدید را بفرست:\n\n"
+            "💡 <b>نکته:</b> برای ست کردن مسیر حتما از دو اسلش // استفاده کنید: <code>//home</code>",
             reply_markup=CANCEL_MENU,
         )
         return
